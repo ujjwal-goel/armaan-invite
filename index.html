@@ -1,126 +1,70 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8" />
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>Concert Invite</title>
-
   <style>
-
     body {
-
       margin: 0;
-
       padding: 0;
-
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
       background: linear-gradient(135deg, #fddde6, #f8e1f4);
-
       display: flex;
-
       flex-direction: column;
-
       align-items: center;
-
       justify-content: center;
-
       min-height: 100vh;
-
       text-align: center;
-
       color: #333;
-
     }
-
     h1 {
-
       font-size: 2em;
-
       margin-bottom: 0.5em;
-
     }
-
     p {
-
       max-width: 320px;
-
       font-size: 1em;
-
       line-height: 1.5em;
-
       margin-bottom: 1em;
-
     }
-
     .details {
-
       background: rgba(255,255,255,0.7);
-
       padding: 1em;
-
       border-radius: 10px;
-
       display: inline-block;
-
       margin-bottom: 1em;
-
     }
-
     .cta {
-
       font-weight: bold;
-
       font-size: 1.1em;
-
     }
-
     .song {
-
       margin-top: 1.5em;
-
     }
-
-    iframe {
-
+    .spotify-logo {
       border-radius: 12px;
-
+      transition: transform 0.2s;
     }
-
+    .spotify-logo:hover {
+      transform: scale(1.1);
+    }
   </style>
-
 </head>
-
 <body>
-
   <h1>Hey…</h1>
-
   <p>I owe you a concert, you know? Since the Ed Sheeran one didn’t work out, thought maybe this could.</p>
-
   <div class="details">
-
     <p><strong>Armaan Malik Live in Bengaluru</strong><br />
-
     📍 Embassy International Riding School, Bengaluru<br />
-
     🗓️ 13 Sep 2025, 5:30 PM onwards</p>
-
   </div>
-
   <p class="cta">Let me know… would be nice to watch him live together 🙂</p>
-
   <div class="song">
-
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4FRW5Nza1Ym91BGV4nJw0k?utm_source=generator" width="300" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
+    <a href="https://open.spotify.com/artist/4K6blSRoklNdpw4mzLxwfn" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Listen on Spotify" width="80" class="spotify-logo">
+    </a>
   </div>
-
 </body>
-
 </html>
 
